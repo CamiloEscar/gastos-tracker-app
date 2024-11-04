@@ -11,6 +11,7 @@ import {
   X} from 'lucide-react';
 import { useExpenseStore } from '../store';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function Sidebar({ isMobileOpen, onMobileClose }: any) {
   const { state, setTheme, setDateRange, setSearchQuery, exportData, importData } = useExpenseStore();
   const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);

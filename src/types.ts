@@ -9,6 +9,7 @@ export interface ExpenseItem {
   description: string;
   amount: number;
   subgroup?: string[];
+  sharedWith?: string[];
 }
 
 export interface ExpenseCategory {

@@ -29,6 +29,7 @@ export function ExpenseStats() {
     '#8B5CF6', '#EC4899', '#14B8A6', '#F97316',
   ];
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
       return (
